@@ -11,9 +11,6 @@
 .my-slider {
     position: relative;
 }
-.slick-slide img {
-  width: 100%;
-}
 .my-slider__main {
     position: relative;
     z-index: 3;
@@ -187,6 +184,7 @@
     text-align: center;
     display: block;
     margin: 0 auto;
+    width: 100%;
     max-width: 100%
 }
 .report__my-slider {
