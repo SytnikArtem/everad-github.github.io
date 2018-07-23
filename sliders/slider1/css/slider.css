@@ -4,6 +4,11 @@
   margin: 0 auto;
   font-family: "Roboto"
 }
+.title {
+  font-size: 40px;
+  margin: 30px 0;
+  text-align: center;
+}
 .responsive__carousel .item {
     margin-bottom: 52px;
 }
