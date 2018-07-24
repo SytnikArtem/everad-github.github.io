@@ -187,10 +187,10 @@ a, a:hover, a:active, a:focus {
     background: transparent;
 }
 .slick-prev {
-    left: -60px;
+    left: -35px;
 }
 .slick-next {
-    right: -60px;
+    right: -35px;
 }
 .slick-dots li button:before {
     font-size: 6px;
