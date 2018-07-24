@@ -44,5 +44,8 @@ $(document).ready(function () {
   $('.report__my-slider .my-slider__main').on('afterChange', function(event, slick, currentSlide){
       $('.report__my-slider .my-slider__nav span').text(currentSlide + 1);
   });
-
+  $('.my-slider__overlay').click(function(){
+    var slideIndex = $(this).parent().parent().parent().index();
+    $('.my-slider__size').slick('slickGoTo', slideIndex);
+  });
 });

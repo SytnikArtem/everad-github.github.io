@@ -8,6 +8,9 @@
   margin: 0 auto;
   font-family: "Roboto"
 }
+.slick-slide {
+  outline: none
+}
 .my-slider {
     position: relative;
 }
