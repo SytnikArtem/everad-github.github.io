@@ -231,5 +231,116 @@
 @media only screen and (max-width: 1100px) {
   .container {
       width: 767px;
+      padding: 0 10px;
   }
+}
+@media only screen and (max-width: 767px) {
+  .container  {
+    width: 100%
+  }
+  .help-item.show-bg .hide-block2 {
+        opacity: 1
+    }
+    .help {
+        background-image: url(../img/uzor.png)
+    }
+    .help-left {
+        width: 100%;
+        padding-bottom: 0;
+        position: static;
+        text-align: center
+    }
+    .help-left::after {
+        position: static;
+        margin: 10px 0;
+        width: 100%;
+        background-position: center
+    }
+    .help-right {
+        position: static;
+        margin: 0 auto
+    }
+    .help-item.show-bg .hide-block2 {
+        opacity: 0
+    }
+    .help-item.show-bg .hide-block {
+        display: none
+    }
+    .help-item.show-sm .hide-block {
+        display: none
+    }
+    .help {
+        padding-bottom: 20px
+    }
+    .specialist {
+        padding-top: 30px;
+        padding-bottom: 10px
+    }
+    .help-item:hover {
+        background-color: inherit;
+        color: inherit
+    }
+    .help-item:hover .plus {
+        display: block
+    }
+    .help-right {
+      height: 600px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .help-item {
+      width: 100%;
+      padding-left: 160px;
+      padding-right: 10px;
+    }
+    .help-item .item {
+      float: left;
+      width: 35%;
+      margin-right: 2%;
+    }
+    .help-item .item2 {
+      float: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 0;
+      width: 62%;
+      opacity: 1
+    }
+    .item2 p {
+      color: #fff;
+      font-size: 14px;
+    }
+    .item2 p.bold {
+      font-size: 14px;
+      color: #fff
+    }
+    .help-item .item::before {
+      display: none
+    }
+    .help-item::after {
+      opacity: 1;
+      z-index: 1;
+      left: 0;
+      top: 0
+    }
+    .help-item:hover {
+      width: 100%;
+      border-radius: 0
+    }
+    .help-item:first-child:hover, .help-item:last-child:hover {
+      border-radius: 0;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .help-right {
+      width: 300px;
+    }
+    .help-item .item2{
+      display: none;
+    }
+    .help-item .item {
+      float: none;
+      width: 100%;
+    }
 }
