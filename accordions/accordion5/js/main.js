@@ -1,6 +1,6 @@
 // click question
 var toggle = 1;
-$(".plus_review").click(function(){
+$(".plus_review, .hide_view_name").click(function(){
   $(".more_question").slideToggle("slow");
     if (toggle == 1) {
       $(".plus_review").text("-");
