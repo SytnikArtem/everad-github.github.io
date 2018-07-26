@@ -136,6 +136,7 @@ img {
 	padding-top: 34px;
 	/*border-top: 1px dashed #cccdce;*/
 	position: relative;
+	text-align: center;
 }
 
 .hide_view::before {
@@ -157,6 +158,8 @@ img {
 	font-size: 16px;
 	color: #666666;
 	font-style: italic;
+	display: inline;
+	cursor: pointer;
 }
 
 .plus_review {
