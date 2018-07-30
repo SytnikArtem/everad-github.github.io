@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Попап на транзитке</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/tp_popup.css">
+</head>
+<body>
+	<div class="modal">
+		<div class="modal-flex">
+			<div class="modal-block">
+				<div class="modal-content">
+					<div class="modal-close">X</div>
+						<p class="modal-content-text">
+								Вы из г. {{location.name}}? Подождите!
+						</p>
+						<div class="modal-main">
+								<div class="modal-main-block">
+										<img src="img/order_tube.png" class="modal-main-img">
+								</div>
+								<div class="modal-main-text">
+										<p class="modal-main-text_p">Из вашего региона к нам поступает наибольшее количество жалоб, связанных с резким ухудшением зрения!</p><br>
+										<p class="modal-main-text_p">Только один день - <span class="date-0 my-com-date">30 июля</span> при оформлении заказа всем местным жителям "<span style="white-space: nowrap">Око-Плюс</span>" предоставляется со скидкой!</p>
+								</div>
+						</div>
+						<div>
+								<a class="modal-btn" href="">Получить со скидкой!</a>
+						</div>
+				</div>
+			</div>
+		</div>
+
+</div>
+ для работы скрипта вывести мышку вверх за границу документа
+ <p class="platform"></p>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/tp_popup.js"></script>
+
+</body>
+</html>
